@@ -2,7 +2,7 @@
 import string,random,sys
 
 # Make the random array
-array = [[random.choice(string.ascii_uppercase) for i in range(10)] for j in range(10)]
+array = [[random.choice(string.ascii_uppercase) for i in range(100)] for j in range(100)]
 
 # Read user file
 filename = sys.argv[1]
